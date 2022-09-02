@@ -26,15 +26,24 @@ Create an account and store your JWT.
 It's recommended to upload the image first:
 
 >pinata-cli -u MetadataExampleImage
+>
 >{ percent: 0, transferred: 0, total: 6886 }
+>
 >{ percent: 0.026139994191112403, transferred: 180, total: 6886 }
+>
 >{ percent: 0.9915771129828638, transferred: 6828, total: 6886 }
+>
 >{ percent: 1, transferred: 6886, total: 6886 }
+>
 >Pinning, please wait...
+>
 >{
 >  IpfsHash: 'QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R',
+>  
 >  PinSize: 6726,
+>  
 >  Timestamp: '2022-09-02T06:40:51.555Z'
+>  
 >}
 
 ## Check the hash and the resulting link
