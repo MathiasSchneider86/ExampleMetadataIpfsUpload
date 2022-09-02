@@ -8,28 +8,14 @@ Create an account and store your JWT.
 >npm i -g pinata-upload-cli
 
 ## Usage of pinata-cli
->pinata-cli -h
-    Usage: pinata-cli [options]
-
-    A command line tool to upload files and folders to Pinata
-
-    Options:
-    -V, --version                     output the version number
-    -a, --auth [jwt]                  API jwt from Pinata
-    -as --authSubmarine [api key]     V2 API Key from Pinata
-    -u, --upload [file or folder]     Source folder or file to upload to IPFS
-    -s, --submarine [file or folder]  Source folder or file to submarine on Pinata
-    -h, --help                        display help for command
-    
-Example Usage:
-    Authenticate Public IPFS:
-        pinata-cli -a [Pinata JWT]
-    Authenticate Submarining:
-        pinata-cli -as [Pinata V2 API Key]
-    Upload a folder or file to public IPFS:
-        pinata-cli -u ../../../test/folder/relative/path
-    Upload a folder or file to private Pinata Submarine:
-        pinata-cli -s ../../../test/folder/relative/path
+Authenticate Public IPFS:
+>pinata-cli -a [Pinata JWT]
+Authenticate Submarining:
+>pinata-cli -as [Pinata V2 API Key]
+Upload a folder or file to public IPFS:
+>pinata-cli -u ../../../test/folder/relative/path
+Upload a folder or file to private Pinata Submarine:
+>pinata-cli -s ../../../test/folder/relative/path
         
 # Create and upload your metadata
 ## Authenticate pinata-cli
