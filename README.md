@@ -48,14 +48,14 @@ It is recommended to follow the standards provided by opensea for metadata desig
 ## JSON upload
 After that paste the ipfs link as image into the metadata:
 
->pinata-cli -u MetadataExample
->{ percent: 0, transferred: 0, total: 1060 }
->{ percent: 0.17547169811320754, transferred: 186, total: 1060 }
->{ percent: 0.9452830188679245, transferred: 1002, total: 1060 }
->{ percent: 1, transferred: 1060, total: 1060 }
->Pinning, please wait...
->{
->  IpfsHash: 'QmUpQfUcd1zd7wDhm2YN8FMKeShK4vN3SBxkp3KaMxgvrj',
->  PinSize: 898,
->  Timestamp: '2022-09-02T06:50:15.944Z'
->}
+>pinata-cli -u MetadataExample 
+>{ percent: 0, transferred: 0, total: 1060 } 
+>{ percent: 0.17547169811320754, transferred: 186, total: 1060 } 
+>{ percent: 0.9452830188679245, transferred: 1002, total: 1060 } 
+>{ percent: 1, transferred: 1060, total: 1060 } 
+>Pinning, please wait... 
+>{ 
+>  IpfsHash: 'QmUpQfUcd1zd7wDhm2YN8FMKeShK4vN3SBxkp3KaMxgvrj', 
+>  PinSize: 898, 
+>  Timestamp: '2022-09-02T06:50:15.944Z' 
+>} 
