@@ -1,4 +1,4 @@
-# ExampleMetadatIpfsUpload
+# ExampleMetadataIpfsUpload
 Metadata structure JSON example,  image and upload with Pinata CLI.
 
 ## Required 00: Pinata account [JWT]
