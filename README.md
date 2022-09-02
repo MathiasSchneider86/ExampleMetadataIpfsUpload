@@ -38,6 +38,7 @@ It's recommended to upload the image first:
 >Pinning, please wait...
 >
 >{
+>
 >  IpfsHash: 'QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R',
 >  
 >  PinSize: 6726,
