@@ -8,16 +8,15 @@ Create an account and store your JWT.
 >npm i -g pinata-upload-cli
 
 ## Usage of pinata-cli
-<sub>
-Authenticate Public IPFS:
-pinata-cli -a [Pinata JWT]
-Authenticate Submarining:
-pinata-cli -as [Pinata V2 API Key]
-Upload a folder or file to public IPFS:
-pinata-cli -u ../../../test/folder/relative/path
-Upload a folder or file to private Pinata Submarine:
-pinata-cli -s ../../../test/folder/relative/path
-</sub>
+### Authenticate Public IPFS:
+>pinata-cli -a [Pinata JWT]
+### Authenticate Submarining:
+>pinata-cli -as [Pinata V2 API Key]
+### Upload a folder or file to public IPFS:
+>pinata-cli -u ../../../test/folder/relative/path
+### Upload a folder or file to private Pinata Submarine:
+>pinata-cli -s ../../../test/folder/relative/path
+
         
 # Create and upload your metadata
 ## Authenticate pinata-cli
