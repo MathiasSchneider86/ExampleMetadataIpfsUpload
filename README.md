@@ -59,19 +59,17 @@ Pinning, please wait...
 ```
 ```
 {
-
-  IpfsHash: 'QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R',
-  
-  PinSize: 6726,
-  
+  IpfsHash: 'QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R', 
+  PinSize: 6726, 
   Timestamp: '2022-09-02T06:40:51.555Z'
-  
 }
 ```
 ## Check the hash and the resulting link
 With a public gateway you can check your image by pasting the following construct to your browser:
 
->https://ipfs.io/ipfs/QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R/?filename=metadata_example.png
+```
+https://ipfs.io/ipfs/QmdoNriSckXbb26WXLBRMz9dLPFnYAPV3xj1JR8i4LU24R/?filename=metadata_example.png
+```
 
 ## Create JSON file
 It is recommended to follow the standards provided by opensea for metadata design (https://docs.opensea.io/docs/metadata-standards).
@@ -79,24 +77,22 @@ It is recommended to follow the standards provided by opensea for metadata desig
 ## JSON upload
 After that paste the ipfs link as image into the metadata:
 
->pinata-cli -u MetadataExample        
->
->{ percent: 0, transferred: 0, total: 1050 }
->
->{ percent: 0.17714285714285713, transferred: 186, total: 1050 }
->
->{ percent: 0.9447619047619048, transferred: 992, total: 1050 }
->
->{ percent: 1, transferred: 1050, total: 1050 }
->
->Pinning, please wait...
->
->{
->
->  IpfsHash: 'QmcxkzcWYNWJvHL8Z9ob3NrDqxszYwBaRVXDZdbjFcb9nP',
->
->  PinSize: 888,
->
->  Timestamp: '2022-09-02T13:45:03.846Z'
->
->}
+```
+pinata-cli -u MetadataExample        
+```
+```
+{ percent: 0, transferred: 0, total: 1050 }
+{ percent: 0.17714285714285713, transferred: 186, total: 1050 }
+{ percent: 0.9447619047619048, transferred: 992, total: 1050 }
+{ percent: 1, transferred: 1050, total: 1050 }
+```
+```
+Pinning, please wait...
+```
+```
+{
+  IpfsHash: 'QmcxkzcWYNWJvHL8Z9ob3NrDqxszYwBaRVXDZdbjFcb9nP',
+  PinSize: 888,
+  Timestamp: '2022-09-02T13:45:03.846Z'
+}
+```
